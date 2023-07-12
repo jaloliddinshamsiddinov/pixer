@@ -387,9 +387,7 @@ footer .footer-links .footer__list h3 {
 footer .footer-links .footer__list .footer__item {
   margin-bottom: 8px;
 }
-footer .footer-links .footer__list .footer__item:hover .footer__link {
-  color: #00BAFC;
-}
+footer .footer-links .footer__list .footer__item:hover .footer__link,
 footer .footer-links .footer__list .footer__item:hover .footer__link i {
   color: #00BAFC;
 }

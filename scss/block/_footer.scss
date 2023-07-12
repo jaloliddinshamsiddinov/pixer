@@ -1,0 +1,126 @@
+footer {
+  background-color: $blue;
+
+  .footer-forms {
+    padding: 56px 0 24px 0;
+
+    .footer-form__title {
+      color: $white;
+      text-align: center;
+      font-family: Open Sans;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    .footer-form__description {
+      color: $white;
+      text-align: center;
+      font-family: Open Sans;
+      font-size: 16px;
+      line-height: 150%;
+      margin-bottom: 24px;
+    }
+
+    .footer-form {
+      max-width: 348px;
+      max-height: 304px;
+      margin: 0 auto 64px;
+      display: flex;
+      padding: 24px;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      border-radius: 5px;
+      background: $white;
+
+      input,
+      select {
+        width: 100%;
+        padding: 16px;
+        border-radius: 5px;
+        background: #f3f3f3;
+        font-size: 16px;
+        outline: none;
+        border: none;
+      }
+
+      button {
+        padding: 8px 16px;
+        background-color: $blue;
+        border: none;
+        border-radius: 5px;
+        color: $white;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        border: 2px solid $blue;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        &:hover {
+          background-color: $white;
+          color: $blue;
+        }
+      }
+    }
+  }
+
+  .footer-links {
+    display: flex;
+    background-color: $black;
+
+    .footer__links {
+      padding-top: 56px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      background-color: $black;
+      color: $white;
+    }
+
+    .footer__list {
+      margin-bottom: 56px;
+
+      .footer__item-description {
+        max-width: 320px;
+      }
+
+      h3 {
+        margin-bottom: 16px;
+
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 130%;
+      }
+
+      .footer__item {
+        margin-bottom: 8px;
+
+        &:hover {
+          .footer__link {
+            color: $blue;
+          }
+
+          .footer__link i {
+            color: $blue;
+          }
+        }
+
+        .footer__link {
+          color: $white;
+          font-family: Open Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+
+          i {
+            color: $white;
+            margin-right: 10px;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
